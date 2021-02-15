@@ -21,6 +21,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func aboutACM(_ sender: Any)
+    {
+    
+   
+    self.aboutACM.text = "UH West Oʻahuʻs Bachelor of Applied Science degree with a concentration in Information Security and Assurance (BAS-ISA) – also known as cyber security – offers a four-year program and several pathway programs."
+    
 
+
+    self.view.backgroundcolor = UIColor.gray
 }
-
